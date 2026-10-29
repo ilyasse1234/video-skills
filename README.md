@@ -63,7 +63,17 @@ Update later with `cd video-skills && git pull`, then copy again.
 | `remotion-saas` | Build an app with Remotion |
 | `remotion-studio` | Preview a Remotion video |
 | `remotion-upgrade` | Upgrade Remotion, and related packages |
+| `gsap-core` | Official GSAP skill for the core API: tweens, easing, stagger, defaults, responsive and reduced-motion animation |
+| `gsap-timeline` | Official GSAP skill for timelines: sequencing, position parameter, nesting, playback |
+| `gsap-plugins` | Official GSAP skill for plugins: Flip, SplitText, Draggable, Observer, ScrollSmoother, MorphSVG and more |
+| `gsap-scrolltrigger` | Official GSAP skill for ScrollTrigger: scroll-linked animation, pinning, scrub |
+| `gsap-utils` | Official GSAP skill for `gsap.utils`: clamp, mapRange, interpolate, random, snap, wrap |
+| `gsap-performance` | Official GSAP skill for performance: transforms over layout, batching, will-change |
+| `gsap-react` | Official GSAP skill for React and Next.js: `useGSAP`, refs, context, cleanup |
+| `gsap-frameworks` | Official GSAP skill for Vue, Svelte and other frameworks: lifecycle, scoping, cleanup |
+
+HyperFrames animations are written with GSAP, so the `gsap-*` skills give the agent the animation vocabulary (easing, timelines, staggers, SplitText) behind the `hyperframes` skill. Remotion projects use them too.
 
 ## Credits
 
-HyperFrames and Remotion skills come from their original authors' official skill sets; rights remain with them. `darija-word-captions` is by [benmouad-ai](https://github.com/benmouad-ai/darija-word-captions) (MIT License, included in its folder). The `video-editor` skill (routing, Gemini transcription fallback and Gemini image generation) and the Darija route (MoulSot / Gemini transcription feeding the alignment) were added for this collection.
+HyperFrames and Remotion skills come from their original authors' official skill sets; rights remain with them. The `gsap-*` skills are GreenSock's official GSAP skills (MIT License, stated in each file). `darija-word-captions` is by [benmouad-ai](https://github.com/benmouad-ai/darija-word-captions) (MIT License, included in its folder). The `video-editor` skill (routing, Gemini transcription fallback and Gemini image generation) and the Darija route (MoulSot / Gemini transcription feeding the alignment) were added for this collection.
